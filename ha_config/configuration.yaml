@@ -1,0 +1,12 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+frontend:
+config:
+logger:
+  default: info
+  logs:
+    custom_components: debug
+
+debugpy:
+  start: true
+  wait: true

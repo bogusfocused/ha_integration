@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ha_integration"
+version = "0.0.1"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+homeassistant = "^2021.6.6"
+pytest-asyncio = "^0.15.1"
+homeassistant-stubs = "^2021.6.6"
+voluptuous-stubs = "^0.1.1"
+autoflake = "^1.4"
+aiohttp_cors = "^0.7.0"
+hass-nabucasa = "0.44.0"
+Pillow = "8.2.0"
+home-assistant-frontend = "20210707.0"
+debugpy = "1.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+

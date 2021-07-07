@@ -1,0 +1,2 @@
+DOMAIN = 'my_component'
+
