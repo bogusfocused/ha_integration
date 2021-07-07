@@ -1,5 +1,5 @@
 from homeassistant.config_entries import ConfigEntry
-from homeassistant.helpers.typing import HomeAssistantType
+from homeassistant.helpers.typing import HomeAssistantType, ConfigType
 
 async def async_setup(hass: HomeAssistantType, config: ConfigType):
     """Initialize the platform."""
